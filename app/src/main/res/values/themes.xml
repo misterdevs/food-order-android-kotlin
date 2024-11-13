@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FoodOrder" parent="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+    <style name="Theme.FoodOrder.Dash" >
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorSecondary">@color/grey</item>
+    </style>
+</resources>

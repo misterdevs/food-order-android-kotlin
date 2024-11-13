@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/orderHistoryItemMenu"
+            android:icon="@drawable/ic_list"
+            android:title="@string/app_bar_name_order_history"
+            />
+        <item
+            android:id="@+id/favoriteFoodItemMenu"
+            android:icon="@drawable/ic_star_outline"
+            android:title="@string/app_bar_name_favorite_food"
+            />
+
+    </group>
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/signOutItemMenu"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/sign_out"
+            />
+    </group>
+
+</menu>
